@@ -24,7 +24,7 @@ def get_date(update, context):
 
 
 def main():
-    updater = Updater("YOUR_TOKEN", use_context=True)
+    updater = Updater(TOKEN, use_context=True)
 
     dp = updater.dispatcher
 
